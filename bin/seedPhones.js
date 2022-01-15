@@ -18,7 +18,7 @@ const phone = [{
   "id": 1,
   "manufacturer": "Google",
   "model": "Google Pixel 3",
-  "image": "https://the-mobile-store.s3.amazonaws.com/img/phone_1-min.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJBQJFCTCQPALOLKQ%2F20220113%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20220113T211714Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=d1a25d5a97a39dfc3efa6fe6d4dd7be19cadf6d552417aced4325d34d3a7bab9",
+  "image": "https://www.cnet.com/a/img/resize/e07817c847551d2b8f27049028dcb06d7c48dd7e/hub/2018/10/13/92cde876-c7d5-4762-a297-94214173e5f2/106-google-pixel-3.jpg?auto=webp&fit=crop&height=675&width=1200",
   "price": 799,
   "description": "Staying too far from your loved ones? Video call them for hours on end. The weather is romantic? Listen to your favourite playlists all day long. Don’t want to go out this weekend? Then binge watch your favourite series on the Internet. The Pixel 3 ensures that there’s never a dull moment, all thanks to its powerful battery, impressive cameras and its expansive bezel-less display.",
   "specs": {
@@ -40,7 +40,7 @@ const phone = [{
   "id": 2,
   "manufacturer": "Samsung",
   "model": "Samsung Note 9",
-  "image": "https://the-mobile-store.s3.amazonaws.com/img/phone_2-min.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJBQJFCTCQPALOLKQ%2F20220113%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20220113T211733Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=c4b4e802641ed7fa58b07ea3260f12f2a53c28550d3f4a6fc8138cc0d46d9b61",
+  "image": "https://fdn.gsmarena.com/imgroot/news/18/08/note9-best-display/-728w2/gsmarena_000.jpg",
   "price": 999,
   "description": "Galaxy Note 9 puts powerful technology in the hands of pioneers who demand more. Innovative features and design make it the only phone to keep up with the next generation of achievers.",
   "specs": {
@@ -62,7 +62,7 @@ const phone = [{
   "id": 3,
   "manufacturer": "Apple",
   "model": "Apple iPhone XS",
-  "image": "https://the-mobile-store.s3.amazonaws.com/img/phone_3-min.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJBQJFCTCQPALOLKQ%2F20220113%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20220113T211741Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=e0ccd26cf60a76d367de6e4ff32c61dcde2ab4d046102542fad3198221f9ece2",
+  "image": "https://cdn.pocket-lint.com/r/s/1200x630/assets/images/145712-phones-review-review-apple-iphone-xs-review-the-safe-update-image1-pcnvrsowyf.jpg",
   "price": 999,
   "description": "Welcome to the big screens! Super Retina in two sizes — including the largest display ever on an iPhone. Even faster Face ID. The smartest, most powerful chip in a smartphone. And a breakthrough dual‑camera system. iPhone XS is everything you love about iPhone. Taken to the extreme.",
   "specs": {
@@ -84,7 +84,7 @@ const phone = [{
   "id": 4,
   "manufacturer": "Samsung",
   "model": "Samsung Galaxy S9+",
-  "image": "https://the-mobile-store.s3.amazonaws.com/img/phone_4-min.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJBQJFCTCQPALOLKQ%2F20220113%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20220113T211750Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=70c21ac0ce46d7782a88c18719c768617fde3f097d3780dbda5dcd10333d16e6",
+  "image": "https://cdn.pocket-lint.com/r/s/970x/assets/images/143732-phones-review-review-samsung-galaxy-s9-plus-review-image1-cr1olnqehf-jpg.webp",
   "price": 840,
   "description": "The perfect formula of a gorgeous 5.8-inch screen, sexy dual-curved design and terrific camera. Whiplash-fast speeds, wireless charging and water resistance complete the package.",
   "specs": {
@@ -106,7 +106,7 @@ const phone = [{
   "id": 5,
   "manufacturer": "Xiaomi",
   "model": "Xiaomi Pocophone F1",
-  "image": "https://the-mobile-store.s3.amazonaws.com/img/phone_5-min.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJBQJFCTCQPALOLKQ%2F20220113%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20220113T211757Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=e3803317a9aa1576757cda969fbab434489fe9e7adc83d22780be6feb2c6fc76",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7uirzXpHCISpx1IRSf5tohGnRQ29pxThxFQ&usqp=CAU",
   "price": 300,
   "description": "Pocophone F1 runs on the Qualcomm® Snapdragon™ 845 mobile platform, meaning you get Snapdragon''s powerful AI engine on their most advanced flagship 10nm class chip. Enjoy unbeatable performance and lower power consumption.",
   "specs": {
@@ -128,7 +128,7 @@ const phone = [{
   "id": 6,
   "manufacturer": "Xiaomi",
   "model": "Xiaomi Mi 8",
-  "image": "https://the-mobile-store.s3.amazonaws.com/img/phone_6-min.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJBQJFCTCQPALOLKQ%2F20220113%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20220113T211809Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=e230c46a5ff1994f06455e1f0849bef491a10335cc5a7be01126ab0981d73bf5",
+  "image": "https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/480/public/media/image/2018/08/xiaomi-mi-8-analisis-opinion_0.jpg?itok=IGpJ4Xs1",
   "price": 400,
   "description": "Astonishing value, insane performance, awesome photography, a larger than ever 18.7:9 AMOLED display and a cool new 3D Face recognition feature are all reasons why it is an amazing phone.",
   "specs": {
@@ -150,7 +150,7 @@ const phone = [{
   "id": 7,
   "manufacturer": "Huawei",
   "model": "Huawei Mate 10 Pro",
-  "image": "https://the-mobile-store.s3.amazonaws.com/img/phone_7-min.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJBQJFCTCQPALOLKQ%2F20220113%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20220113T211823Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=d7b07adb21af697a2474362847d9c1ef73bed70b27b64bd981f360d139f2a899",
+  "image": "https://i.blogs.es/315468/mate-10-pro_picture_preview/450_1000.jpeg",
   "price": 800,
   "description": "Supported by the revolutionary GPU Turbo technology, the image processing speed is greatly accelerated to bring you a smooth and immersive visual experience.",
   "specs": {
@@ -172,7 +172,7 @@ const phone = [{
   "id": 8,
   "manufacturer": "Huawei",
   "model": "Huawei Honor 10 Lite",
-  "image": "https://the-mobile-store.s3.amazonaws.com/img/phone_8-min.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJBQJFCTCQPALOLKQ%2F20220113%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20220113T211829Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=58cf3db614cd1ca35d4dd83938a182fd2e817b2e01751ccd646b0e2348ac26d0",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpl4GsvekCqrtLYnz-IASZYA3LoEZiFNUwpw&usqp=CAU",
   "price": 330,
   "description": "The Honor 10 Lite is a fashion icon you can hold in the palm of your hand. Inspired by the beautiful color of the sky, HONOR chose a youthful, energetic and natural design that fades gradually from light to dark – Sky Blue.",
   "specs": {
@@ -194,7 +194,7 @@ const phone = [{
   "id": 9,
   "manufacturer": "Samsung",
   "model": "Samsung Galaxy A50",
-  "image": "https://the-mobile-store.s3.amazonaws.com/img/samsunggalaxya50.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJBQJFCTCQPALOLKQ%2F20220113%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20220113T211835Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=431e291ebf41044fe68d73461f5c12957f68afae1338de9397e237a519d2412d",
+  "image": "https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/480/public/media/image/2019/05/galaxy-a50_2.jpg?itok=U1IIkDdH",
   "price": 444,
   "description": "Samsung Galaxy A50 is a Smartphone Powered by Android 9.0 Pie and Triple rear cameras (25MP Primary + 8MP Ultra Wide + 5MP Depth Sensor).",
   "specs": {
@@ -214,7 +214,7 @@ const phone = [{
   "id": 10,
   "manufacturer": "Xiaomi",
   "model": "Xiaomi Redmi Note 7",
-  "image": "https://the-mobile-store.s3.amazonaws.com/img/xiaomiredminote7.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJBQJFCTCQPALOLKQ%2F20220113%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20220113T211840Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=d2275605616c429451d2ff392ffa4c982c9682e78a786fa28e94aec60d9d0f5c",
+  "image": "https://cdn.pocket-lint.com/r/s/970x/assets/images/148258-phones-review-redmi-note-7-image1-qyoibyf6uz-jpg.webp",
   "price": 222,
   "description": "Xiaomi Redmi Note 7 is a 4G Smartphone Powered by MIUI 10 based on Android 9.0 Pie with 12MP + 2MP dual rear camera with LED Flash. ( 48MP + 5MP dual Rear camera with LED flash model available in CHINA )",
   "specs": {
@@ -234,7 +234,7 @@ const phone = [{
   "id": 11,
   "manufacturer": "Xiaomi",
   "model": "Xiaomi Redmi Note 7 Pro",
-  "image": "https://the-mobile-store.s3.amazonaws.com/img/xiaomiredminote7pro.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJBQJFCTCQPALOLKQ%2F20220113%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20220113T211845Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=6e9fa9c8feaaa7daa744a52f906f29ccd346d5b72ac638bdf84896de3f82d10a",
+  "image": "https://cdn.pocket-lint.com/r/s/970x/assets/images/148258-phones-review-redmi-note-7-image1-qyoibyf6uz-jpg.webp",
   "price": 311,
   "description": "Xiaomi Redmi Note 7 Pro is a 4G Smartphone Powered by MIUI 10 based on Android 9.0 Pie and comes with 48MP + 5MP dual rear camera with LED Flash.",
   "specs": {
@@ -254,7 +254,7 @@ const phone = [{
   "id": 12,
   "manufacturer": "Samsung",
   "model": "Samsung Galaxy S10+",
-  "image": "https://the-mobile-store.s3.amazonaws.com/img/samsunggalaxys10.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJBQJFCTCQPALOLKQ%2F20220113%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20220113T211850Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=c27bc9f34356423624a65f0fae10c472c6968d496e9c1e7651eafd58548f85e2",
+  "image": "https://cdn.pocket-lint.com/r/s/1200x/assets/images/147129-phones-review-review-samsung-galaxy-s10-plus-review-image1-zmvrefihpw.jpg",
   "price": 1997,
   "description": "Samsung Galaxy S10 5G is a smartphone powered by Android 9.0 Pie, Stereo speakers and Quad rear camera 12MP (Wide) + 12MP (Telephoto) + 16MP (Ultrawide) + TOF camera with LED flash. In-display fingerprint sensor.",
   "specs": {
@@ -274,7 +274,7 @@ const phone = [{
   "id": 13,
   "manufacturer": "Samsung",
   "model": "Samsung Galaxy M30",
-  "image": "https://the-mobile-store.s3.amazonaws.com/img/samsunggalaxym30.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJBQJFCTCQPALOLKQ%2F20220113%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20220113T211855Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=be10b2d626590fe96c0ede534f85bf0ad219486353f64cad96bf28302f7667c1",
+  "image": "https://cdn.mos.cms.futurecdn.net/T4KTXTqBLzLmVUTkC5w4RE.jpg",
   "price": 333,
   "description": "Samsung Galaxy M30 is a Smartphone Powered by Android 8.1 Oreo with Samsung Experience 9.5 and triple rear cameras (13MP Primary + 5MP + 5MP Ultra Ultra Wide).",
   "specs": {
@@ -294,7 +294,7 @@ const phone = [{
   "id": 14,
   "manufacturer": "Samsung",
   "model": "Samsung Galaxy A30",
-  "image": "https://the-mobile-store.s3.amazonaws.com/img/samsunggalaxya30.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJBQJFCTCQPALOLKQ%2F20220113%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20220113T211901Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=204e376451d6806ede4e8d33ba4afa880bd79d5168ce43779ad463cb166e09eb",
+  "image": "https://fdn.gsmarena.com/imgroot/reviews/19/samsung-galaxy-a30/lifestyle/-727w2/gsmarena_014.jpg",
   "price": 377,
   "description": "Samsung Galaxy A30 is a Smartphone Powered by Android 9.0 Pie and Dual rear cameras (16MP Primary + 5MP Ultra Wide).",
   "specs": {
@@ -314,7 +314,7 @@ const phone = [{
   "id": 15,
   "manufacturer": "Samsung",
   "model": "Samsung Galaxy M20",
-  "image": "https://the-mobile-store.s3.amazonaws.com/img/samsunggalaxym20.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJBQJFCTCQPALOLKQ%2F20220113%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20220113T211906Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=42a32874b17b26ba686b8b2796a5f672ca859b8089b5af9e74c9b16d5e575a76",
+  "image": "https://s1.eestatic.com/2019/03/29/elandroidelibre/el_androide_libre_386974353_179671170_1024x576.jpg",
   "price": 244,
   "description": "Samsung Galaxy M20 is a Smartphone Powered by Android 8.1 Oreo with Samsung Experience 9.5 and Dual rear cameras (13MP Primary + 5MP Ultra Ultra Wide).",
   "specs": {
@@ -334,7 +334,7 @@ const phone = [{
   "id": 16,
   "manufacturer": "Xiaomi",
   "model": "Xiaomi Mi 9",
-  "image": "https://the-mobile-store.s3.amazonaws.com/img/xiaomimi9.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJBQJFCTCQPALOLKQ%2F20220113%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20220113T211911Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=8faa7fad7d9328db28a319eb0a7731dc7add8f0fe99eb3ffd83b8923411b17f6",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ2MBPDXQo9tD9-U6NPI0Ri9jukWdmqPmmrA&usqp=CAU",
   "price": 711,
   "description": "Xiaomi Mi 9 is a Smartphone Powered by MIUI 10 based on Android 9 Pie, 48MP(RGB) + 12MP(Telephoto) + 16MP(Ultra-wide) triple rear camera with 4-axis OIS, Optical zoom, 4K video recording, dual tone LED flash, 20MP Front Camera and Pressure sensitive fingerprint sensor, 20W wireless fast charging",
   "specs": {
@@ -354,7 +354,7 @@ const phone = [{
   "id": 17,
   "manufacturer": "Samsung",
   "model": "Samsung Galaxy S10",
-  "image": "https://the-mobile-store.s3.amazonaws.com/img/samsunggalaxys10.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJBQJFCTCQPALOLKQ%2F20220113%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20220113T211915Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=b142fbc0e5db0a6426200f5e307014a7a0dcd6fd66ed1aeb4220565855b6d59e",
+  "image": "https://cdn.pocket-lint.com/r/s/1200x/assets/images/147148-phones-review-review-samsung-galaxy-s10-image1-kakveu1jtu.jpg",
   "price": 1997,
   "description": "Samsung Galaxy S10 5G is a smartphone powered by Android 9.0 Pie, Stereo speakers and Quad rear camera 12MP (Wide) + 12MP (Telephoto) + 16MP (Ultrawide) + TOF camera with LED flash. In-display fingerprint sensor.",
   "specs": {
@@ -374,7 +374,7 @@ const phone = [{
   "id": 18,
   "manufacturer": "Xiaomi",
   "model": "Xiaomi Redmi 7",
-  "image": "https://the-mobile-store.s3.amazonaws.com/img/xiaomiredmi7.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJBQJFCTCQPALOLKQ%2F20220113%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20220113T211925Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=a28cecde0b51b26836360f3c3cd83b1fef7e03d5f38c0d7844e5bd9e8760a9dc",
+  "image": "https://i.blogs.es/e0bf2e/xiaomi-redmi-7-08/450_1000.jpg",
   "price": 222,
   "description": "Xiaomi Redmi Note 7 is a 4G Smartphone Powered by MIUI 10 based on Android 9.0 Pie with 12MP + 2MP dual rear camera with LED Flash. ( 48MP + 5MP dual Rear camera with LED flash model available in CHINA )",
   "specs": {
@@ -394,7 +394,7 @@ const phone = [{
   "id": 19,
   "manufacturer": "Samsung",
   "model": "Samsung Galaxy S8",
-  "image": "https://the-mobile-store.s3.amazonaws.com/img/samsunggalaxys8.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJBQJFCTCQPALOLKQ%2F20220113%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20220113T211929Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=d880583ac31f3fba539e4edf9f5577086f1d34973c65edcdb2aff21833973b45",
+  "image": "https://cdn.pocket-lint.com/r/s/1200x/assets/images/140644-phones-review-samsung-galaxy-s8-review-image1-wyesoelc2u.jpg",
   "price": 1286,
   "description": "Samsung Galaxy S8 is smartphone powered by Android 7.0 Nougat and Dual Pixel 12MP rear camera with F 1.7, Smart OIS",
   "specs": {
@@ -414,7 +414,7 @@ const phone = [{
   "id": 20,
   "manufacturer": "Samsung",
   "model": "Samsung Galaxy A7 (2018)",
-  "image": "https://the-mobile-store.s3.amazonaws.com/img/samsunggalaxya72018.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJBQJFCTCQPALOLKQ%2F20220113%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20220113T211934Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=59cfa314b8b75f681392da8b9ba7f77a8b92329a82668e41812ea09c33a9c88d",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxuLEfUjjddf-0qAhRGoJdpvetA_LCNQ8m6w&usqp=CAU",
   "price": 533,
   "description": "Samsung Galaxy A7 2018 is a Smartphone Powered by Android 8.0 Oreo and Triple rear cameras (24MP Primary + 8MP 120° Ultra Wide + 5MP depth), Side-mounted Fingerprint sensor.",
   "specs": {
@@ -434,7 +434,7 @@ const phone = [{
   "id": 21,
   "manufacturer": "Oppo",
   "model": "Oppo F11 Pro",
-  "image": "https://the-mobile-store.s3.amazonaws.com/img/oppof11pro.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJBQJFCTCQPALOLKQ%2F20220113%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20220113T211938Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=a196e00804151fc895ad6dbbef3746aa7aae5499d131678f4c76c6a6016899d3",
+  "image": "https://cdn.pocket-lint.com/r/s/1200x/assets/images/147346-phones-news-oppo-f11-pro-image1-nizto4j2us.jpg",
   "price": 555,
   "description": "OPPO F11 Pro is a Smartphone Powered by Color OS 6.0 Based on Android 9 Pie, 48MP rear camera with f/1.79 aperture, 0.8um pixel size, 6P lens, 5MP secondary camera with 1.12um pixel size with LED flash and 16MP front camera.",
   "specs": {
@@ -454,7 +454,7 @@ const phone = [{
   "id": 22,
   "manufacturer": "Huawei",
   "model": "Huawei Y9 (2019)",
-  "image": "https://the-mobile-store.s3.amazonaws.com/img/huaweiy92019.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJBQJFCTCQPALOLKQ%2F20220113%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20220113T211943Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=1919ee3a8a2ddd4677948505110c396a0b516141a2b9dc3a62adde205f48a785",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQbPJIaIW0-ACk3N76EAoDys9NjK3sJIdSlw&usqp=CAU",
   "price": 355,
   "description": "The Huawei Y9 2019 is a Android Smartphone powered by EMUI 8.2 based on Android 8.1 Oreo and 16MP + 2MP dual rear Camera with LED flash.",
   "specs": {
@@ -474,7 +474,7 @@ const phone = [{
   "id": 23,
   "manufacturer": "vivo",
   "model": "vivo V15 Pro",
-  "image": "https://the-mobile-store.s3.amazonaws.com/img/vivov15pro.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJBQJFCTCQPALOLKQ%2F20220113%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20220113T211949Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=44d4475dd042a8aa77d64e1f80c5a166d4f7fd556e061af5a416f5e8bca43639",
+  "image": "https://cdn57.androidauthority.net/wp-content/uploads/2019/02/Vivo-V15-Pro-2.jpg",
   "price": 644,
   "description": "vivo V15 Pro is a smartphone Powered by Funtouch OS 9 Based on Android 9.0 Pie, 48 million quad pixel 1/2.25″ sensor (12MP Effective Pixel) with f/1.8 aperture, 5MP depth sensor, 8MP AI 120-degree Super wide angle camera. In-display fingerprint sensor.",
   "specs": {
@@ -494,7 +494,7 @@ const phone = [{
   "id": 24,
   "manufacturer": "Samsung",
   "model": "Samsung Galaxy S10e",
-  "image": "https://the-mobile-store.s3.amazonaws.com/img/samsunggalaxys10e.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJBQJFCTCQPALOLKQ%2F20220113%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20220113T211954Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=2f1248eab294d412afa088b5e7accf5774605bfb7cee1f1390d7a296935fa6b0",
+  "image": "https://root-nation.com/wp-content/uploads/2019/03/samsung-galaxy-s10e-2.jpg",
   "price": 1242,
   "description": "Samsung Galaxy S10e is a smartphone powered by Android 9.0 Pie, Stereo speakers and 12MP (Wide) + 16MP (Ultrawide) dual rear camera with LED flash. Stereo speakers and Side mounted fingerprint.",
   "specs": {
@@ -514,7 +514,7 @@ const phone = [{
   "id": 25,
   "manufacturer": "Xiaomi",
   "model": "Xiaomi Redmi Note 6 Pro",
-  "image": "https://the-mobile-store.s3.amazonaws.com/img/xiaomiredminote6pro.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJBQJFCTCQPALOLKQ%2F20220113%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20220113T211958Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=7ede47af9961d2b6426e4f9c61e5ec15c21fbd21cc923c496b0443daf7d3df7e",
+  "image": "https://s1.eestatic.com/2021/01/07/elandroidelibre/549457314_180260778_1100x619.jpg",
   "price": 311,
   "description": "Xiaomi Redmi Note 6 Pro is a mid-range smartphone in the Redmi Note series Powered by MIUI 10 based on Android 8.1 Oreo with 12MP + 5MP dual Rear camera with LED Flash.",
   "specs": {

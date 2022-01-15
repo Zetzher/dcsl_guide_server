@@ -9,11 +9,17 @@ router.get('/', async (req, res, next) => {
         const response = await Phone.aggregate([
             {
                 '$project': {
+                    '_id': 0,
+                    'id': '$_id',
                     'manufacturer': 1,
                     'model': 1,
                     'image': 1,
                     'price': 1,
                     'stock': 1
+                }
+            }, {
+                '$sort': {
+                    'manufacturer': 1
                 }
             }
         ]);
@@ -64,9 +70,15 @@ router.post('/purchase/:mobileId', async (req, res, next) => {
             }
         ]);
 
-        await Phone.findByIdAndUpdate(mobileId, { stock: findPhone[0].stock - 1 });
+        const { stock } = findPhone[0];
 
-        res.status(200).json({ message: 'This phone is all yours from now on!' });
+        if (stock > 0) {
+            await Phone.findByIdAndUpdate(mobileId, { stock: stock - 1 });
+
+            res.status(200).json({ message: 'This phone is all yours from now on!' });
+        } else if (stock === 0) {
+            res.status(404).json({ message: `We don't have stock for this phone, wait until next week.` });
+        }
 
     } catch (err) {
         res.status(500).json({ message: 'There was an error purchasing this phone, contact to our team.' })
@@ -78,7 +90,7 @@ router.post('/create', async (req, res, next) => {
     const { model, description, price } = req.body;
 
     try {
-        await Phone.create({model, description, price});
+        await Phone.create({ model, description, price });
 
         res.status(200).json({ message: `Model ${model} has been added to our database.` });
 
