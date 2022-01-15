@@ -62,8 +62,8 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
 
-const phone = require('./routes/phone');
+const { Phones } = require('./routes/index');
 
-app.use('/phones', phone);
+app.use('/phones', Phones);
 
 module.exports = app;

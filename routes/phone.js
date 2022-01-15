@@ -73,11 +73,26 @@ router.post('/purchase/:mobileId', async (req, res, next) => {
     };
 });
 
-router.put('/edit/:mobileId', async (req, res, next) => {
-    try {
-        const { mobileId } = req.params;
+router.post('/create', async (req, res, next) => {
 
-        const { model, description, price } = req.body;
+    const { model, description, price } = req.body;
+
+    try {
+        await Phone.create({model, description, price});
+
+        res.status(200).json({ message: `Model ${model} has been added to our database.` });
+
+    } catch (err) {
+        console.log(err)
+        res.status(500).json({ message: 'There was an error adding this phone, contact to our team.' })
+    };
+});
+
+router.put('/edit/:mobileId', async (req, res, next) => {
+    const { mobileId } = req.params;
+
+    const { model, description, price } = req.body;
+    try {
 
         const response = await Phone.findByIdAndUpdate(mobileId, { model, description, price }, { new: true });
 
