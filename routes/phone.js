@@ -30,9 +30,9 @@ router.get('/', async (req, res, next) => {
     };
 });
 
-router.get('/info', async (req, res, next) => {
+router.get('/info/:phoneId', async (req, res, next) => {
 
-    const { phoneId } = req.body;
+    const { phoneId } = req.params;
 
     try {
         const response = await Phone.aggregate([
