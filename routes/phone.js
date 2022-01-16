@@ -15,7 +15,9 @@ router.get('/', async (req, res, next) => {
                     'model': 1,
                     'image': 1,
                     'price': 1,
-                    'stock': 1
+                    'stock': 1,
+                    'memory': '$specs.memory',
+                    'camera': '$specs.camera.features'
                 }
             }, {
                 '$sort': {
@@ -97,24 +99,13 @@ router.post('/create', async (req, res, next) => {
     };
 });
 
-router.post('/create', async (req, res, next) => {
-    const { model, price, description } = req.body;
-    try {
-        await Phone.create({ model, description, price });
-
-        res.status(200).json({ message: `${model} has been created succesfully.` });
-    } catch (err) {
-        res.status(500).json({ message: 'There was an error editing this phone, contact to our team.' });
-    };
-});
-
 router.put('/edit/:mobileId', async (req, res, next) => {
     const { mobileId } = req.params;
 
-    const { model, description, price } = req.body;
-    try {
-        const response = await Phone.findByIdAndUpdate(mobileId, { model, description, price }, { new: true });
+    const { description, price } = req.body;
 
+    try {
+        const response = await Phone.findByIdAndUpdate(mobileId, { description, price }, { new: true });
         res.status(200).json({ message: `This phone ${response.model} has been updated with this price ${response.price}€` });
     } catch (err) {
         res.status(500).json({ message: 'There was an error editing this phone, contact to our team.' });
