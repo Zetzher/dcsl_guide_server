@@ -40,10 +40,6 @@ router.get('/info/:phoneId', async (req, res, next) => {
                 '$match': {
                     '_id': ObjectId(phoneId)
                 }
-            }, {
-                '$project': {
-                    '_id': 0
-                }
             }
         ]);
 
@@ -65,17 +61,18 @@ router.post('/purchase/:mobileId', async (req, res, next) => {
             }, {
                 '$project': {
                     '_id': 0,
-                    'stock': 1
+                    'stock': 1,
+                    'model': 1
                 }
             }
         ]);
 
-        const { stock } = findPhone[0];
+        const { stock, model } = findPhone[0];
 
         if (stock > 0) {
             await Phone.findByIdAndUpdate(mobileId, { stock: stock - 1 });
 
-            res.status(200).json({ message: 'This phone is all yours from now on!' });
+            res.status(200).json({ message: `${model} is all yours from now on!` });
         } else if (stock === 0) {
             res.status(404).json({ message: `We don't have stock for this phone, wait until next week.` });
         }
@@ -100,12 +97,22 @@ router.post('/create', async (req, res, next) => {
     };
 });
 
+router.post('/create', async (req, res, next) => {
+    const { model, price, description } = req.body;
+    try {
+        await Phone.create({ model, description, price });
+
+        res.status(200).json({ message: `${model} has been created succesfully.` });
+    } catch (err) {
+        res.status(500).json({ message: 'There was an error editing this phone, contact to our team.' });
+    };
+});
+
 router.put('/edit/:mobileId', async (req, res, next) => {
     const { mobileId } = req.params;
 
     const { model, description, price } = req.body;
     try {
-
         const response = await Phone.findByIdAndUpdate(mobileId, { model, description, price }, { new: true });
 
         res.status(200).json({ message: `This phone ${response.model} has been updated with this price ${response.price}€` });
