@@ -3,7 +3,7 @@ const Schema = mongoose.Schema
 const phone = new Schema({
     manufacturer: { type: String, default: "DCSL Guidesmith" },
     model: String,
-    image: { type: String, default: "https://sc04.alicdn.com/kf/H99eff81a5f644331add21ef3a3af0e94M.jpg" },
+    image: { type: String, default: "https://cdn.pocket-lint.com/r/s/970x/assets/images/153887-phones-review-nokia-83-image11-8jhq0lhifd.jpg" },
     price: Number,
     description: String,
     specs: {
