@@ -9,8 +9,6 @@ router.get('/', async (req, res, next) => {
         const response = await Phone.aggregate([
             {
                 '$project': {
-                    '_id': 0,
-                    'id': '$_id',
                     'manufacturer': 1,
                     'model': 1,
                     'image': 1,
@@ -86,14 +84,17 @@ router.post('/purchase/:mobileId', async (req, res, next) => {
 
 router.post('/create', async (req, res, next) => {
 
-    const { model, description, price } = req.body;
+    const { model, manufacturer, description, main, selfie, features, body, memory, chipset, display, platform, price } = req.body.phoneInfo;
 
     try {
-        await Phone.create({ model, description, price });
+        const response = await Phone.create({ specs: { camera: { main, selfie, features }, body, memory, chipset, display, platform }, manufacturer, model, description, price });
+        
+        
 
-        res.status(200).json({ message: `Model ${model} has been added to our database.` });
+        res.status(200).json({ phone: response, message: `Model ${model} has been added to our database.` });
 
     } catch (err) {
+        console.log(err)
         res.status(500).json({ message: 'There was an error adding this phone, contact to our team.' })
     };
 });
