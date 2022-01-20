@@ -43,11 +43,11 @@ app.use(
 app.use(
   cors({
     credentials: true,
-    origin: [process.env.PUBLIC_DOMAIN],
+    origin: [process.env.PUBLIC_DOMAIN, process.env.FIREBASE_DOMAIN_WEB, process.env.FIREBASE_DOMAIN_BASE],
   })
 );
 app.use((req, res, next) => {
-  res.setHeader('Access-Control-Allow-Origin', process.env.PUBLIC_DOMAIN);
+  res.setHeader('Access-Control-Allow-Origin', process.env.PUBLIC_DOMAIN, process.env.FIREBASE_DOMAIN_WEB, process.env.FIREBASE_DOMAIN_BASE);
   res.setHeader('Access-Control-Allow-Methods', 'GET, PUT, POST OPTIONS, DELETE');
   res.setHeader('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
   res.setHeader('Access-Control-Allow-Credentials', true);
