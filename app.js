@@ -43,7 +43,7 @@ app.use(
 app.use(
   cors({
     credentials: true,
-    origin: [process.env.PUBLIC_DOMAIN, process.env.FIREBASE_DOMAIN_WEB, process.env.FIREBASE_DOMAIN_BASE],
+    origin: [process.env.FIREBASE_DOMAIN_BASE, process.env.PUBLIC_DOMAIN, process.env.FIREBASE_DOMAIN_WEB],
   })
 );
 app.use((req, res, next) => {
